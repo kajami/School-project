@@ -48,8 +48,7 @@ h2{
     color: rgba(255, 255, 255, 0.884);
     letter-spacing: 0.5vw;
     font-family: 'Gravitas One', cursive;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-    
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5); 
 }
 
 h3{
@@ -183,22 +182,21 @@ nav.mob,
 }
 
 
-
-
-
 @media screen and (max-width: 1600px){
     /*Estetaan tekstin meneminen liian lahekkain*/
 
     .container nav.desk{
         font-size: 75%;
     }    
+
     #y-tunnus{
         font-size:75%
-        
     }
+
     .footer{
         font-size: 75%;
     }
+
     nav ul li.active{
         position: relative;
         bottom: 1.45vh;
@@ -213,14 +211,17 @@ nav.mob,
     nav.desk{
         display: none;
     }
+
     nav.mob,
     .hamburger-btn{
         display: block;
     }
+
     .hamburger-btn{
         position: relative; 
         /*relative mahdollistaa siirtelyn*/
     }
+
     .hamburger-btn .fa-bars,
     .hamburger-btn .fa-times{
         position: fixed;
@@ -229,14 +230,15 @@ nav.mob,
         font-size: 30px;
         cursor: pointer;
         color:white;
-        
     }
+
     .mob ul{
         box-shadow: 0 2px 2px 0 black;
         margin-top: 9vh;
         display: none; 
         /*piilotetaan lista aluksi, ennen fa-bars painallusta*/
     }
+
     .mob li{
         text-transform: uppercase;
         text-align: center;
@@ -244,6 +246,7 @@ nav.mob,
         cursor: pointer;
         background: black;
     }
+
     .mob ul.active{        
         display: block;
     }
@@ -258,6 +261,7 @@ nav.mob,
     h2{
         font-size: 3.5vh;
     }
+
     .faceIcon{
         position: fixed;
         font-size: 30px;
@@ -266,18 +270,22 @@ nav.mob,
         bottom: 1vh;
         left: 3vh;
         padding: 0;
-    }    
+    }   
+
     #y-tunnus{
     font-size: 60%;
     left: 38%;
     }
+
     .infoa{
     margin-left:10%;
     margin-right:10%;
     }
+
     h3{
         font-size: 4.5vh;
     }
+    
     .footer p{
         padding: 0;
         padding-top: 1em;
