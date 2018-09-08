@@ -36,8 +36,7 @@ h1{
     margin-top: -75vh;
     font-size: 7vw;
     color: rgb(252, 252, 252);
-    text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.5);
-    
+    text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.5);  
 }
 
 h2{
@@ -58,6 +57,7 @@ h3{
     font-size: 7vh;
     padding-bottom: 1vh;
 }
+
 .infoa{
     position: relative;
     top:80vh;
@@ -69,8 +69,7 @@ h3{
     color: grey;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover;  
 }
 
 .footer{
@@ -87,6 +86,7 @@ h3{
     letter-spacing: 1px;
     user-select: text;
 }
+
 .footer p{
     padding: 2em;
 }
@@ -99,7 +99,6 @@ h3{
     height: 14vh;
     background: rgba(0,0,0,0.2);
     position: fixed;
-    /*fixed kiinnittaa menun ylos*/
     top: 0;
     left: 0;
 }
@@ -111,26 +110,25 @@ h3{
     background: black;
     box-shadow: 0 2px 2px 0 black;
     position: fixed;
-    /*fixed kiinnittaa menun ylos*/
     top: 0;
     left: 0;
 }
+
 nav.desk ul{
     opacity: 1;
     list-style: none;
     width: 75%;
     margin: 0 auto;
-
 }
+
 nav.desk ul li{
-    
     margin-top: 5vh;       
     width: 20%;
     text-align: center;
     float: left;
     line-height: 3vh;
     text-transform: uppercase;
-    cursor:pointer; /*muuttaa hiiren kädenkuvaksi*/
+    cursor:pointer; 
     transition: all 0.5s ease; /*muuttaa feidaus animaation nopeutta*/
     transition: transform .5s;
 }
@@ -145,10 +143,9 @@ nav ul li.active{
     bottom: 2.6vh;
     line-height: 8vh;
     background: rgba(180, 217, 228, 0.8);
-    
-
     /*pitaa blokin aktiivisena(varillisina) missa mennaan*/
 }
+
 .mob ul li.active{
     background: rgba(180, 217, 228);
     bottom: 0;
@@ -159,16 +156,15 @@ nav ul li a{
     color:white;
     text-decoration: none;
     text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.5);
-
 }
+
 nav.mob,
 .hamburger-btn{
     display: none;
     /*Piilotetaan navigaationapit isommalla naytolla*/
 }
 
-.faceIcon{
-    
+.faceIcon{ 
         font-size: 6vh;
         position: fixed;
         top: -1%;
@@ -177,9 +173,11 @@ nav.mob,
         transition: all 0.5s ease; /*muuttaa feidaus animaation nopeutta*/
         transition: transform .8s;
 }
+
 .fa-facebook-square{
     color:white;
 }
+
 .fa-facebook-square:hover{   
     transform: scale(1.2);
 }
